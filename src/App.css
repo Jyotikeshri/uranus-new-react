@@ -40,7 +40,7 @@ main {
 
 @media (max-width: 700px) {
   .footer {
-    top: 350vh;
+    top: 370vh;
     display: flex;
     padding: 2rem;
   }
