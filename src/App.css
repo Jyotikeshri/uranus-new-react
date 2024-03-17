@@ -43,6 +43,7 @@ main {
     top: 370vh;
     display: flex;
     padding: 2rem;
+    margin-top: 200px;
   }
   .links {
     margin-left: 3rem;
