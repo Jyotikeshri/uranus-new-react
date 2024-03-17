@@ -35,15 +35,15 @@ function App() {
               <p>Golden Meme</p>
             </a>
           </div>
-        </div>
-        <div className="copyright">
-          <p>Made By Jyoti Keshri</p>
-        </div>
-        <div className="icons">
-          <div className="icon">
-            <a href="https://github.com/Jyotikeshri">
-              <FaGithub size={24} />
-            </a>
+          <div className="copyright">
+            <p>Made By Jyoti Keshri</p>
+            <div className="icons">
+              <div className="icon">
+                <a href="https://github.com/Jyotikeshri">
+                  <FaGithub size={24} />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
