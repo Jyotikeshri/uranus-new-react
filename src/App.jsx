@@ -3,6 +3,7 @@ import "./App.css";
 
 import Navbar from "./Components/Navbar/Navbar";
 import AllRoutes from "./Components/AllRoutes/AllRoutes";
+import { FaGithub } from "react-icons/fa";
 
 function App() {
   return (
@@ -37,6 +38,13 @@ function App() {
         </div>
         <div className="copyright">
           <p>Made By Jyoti Keshri</p>
+        </div>
+        <div className="icons">
+          <div className="icon">
+            <a href="https://github.com/Jyotikeshri">
+              <FaGithub size={24} />
+            </a>
+          </div>
         </div>
       </div>
     </>

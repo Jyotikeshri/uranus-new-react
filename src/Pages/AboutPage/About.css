@@ -85,3 +85,31 @@ p {
     top: 20vh;
   }
 }
+
+.mirror {
+  display: flex;
+  font-size: 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  width: 30vw;
+  align-items: center;
+  backdrop-filter: blur(4px) saturate(180%);
+  -webkit-backdrop-filter: blur(4px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 2rem;
+  cursor: pointer;
+}
+
+.mirror h2 {
+  text-align: center;
+}
+
+.mirror:hover {
+  backdrop-filter: blur(12px) saturate(179%);
+  -webkit-backdrop-filter: blur(12px) saturate(179%);
+  background-color: rgba(17, 25, 40, 0.44);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}

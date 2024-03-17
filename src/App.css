@@ -36,11 +36,12 @@ main {
   background-color: rgb(0, 0, 40);
 
   bottom: 0;
+  padding-bottom: 3rem;
 }
 
 @media (max-width: 700px) {
   .footer {
-    top: 370vh;
+    top: 390vh;
     display: flex;
     padding: 2rem;
     margin-top: 200px;
@@ -57,4 +58,22 @@ main {
   .links h2 {
     font-size: 15px;
   }
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.icon {
+  padding: 1rem;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.icon a:hover {
+  opacity: 1;
+  color: rgb(220, 220, 220);
 }

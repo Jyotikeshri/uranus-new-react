@@ -74,13 +74,15 @@ const About = ({ memes }) => {
           </li>
           <p>In Crypto We Trust, But In Uranus, We Believe!</p>
         </ul>
+        <div className="mirror">
+          <h2>In Crypto We Trust, But In Uranus, We Believe!</h2>
+          <h4>The Memeifesto</h4>
 
-        <p>The Memeifesto</p>
-
-        <p>
-          Welcome to the wild side of crypto - where memes aren't just dreams,
-          and astrology isn’t just your daily horoscope.
-        </p>
+          <p>
+            Welcome to the wild side of crypto - where memes aren't just dreams,
+            and astrology isn’t just your daily horoscope.
+          </p>
+        </div>
       </div>
       <div className="image-container">
         <ImageContainer images={memes} duration={3} />

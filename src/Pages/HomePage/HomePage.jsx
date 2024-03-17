@@ -14,6 +14,12 @@ const HomePage = ({ memes }) => {
     typeSpeed: 120,
     deleteSpeed: 80,
   });
+  const [meme_text] = useTypewriter({
+    words: ["Prepare $UrANUS", "$UrANUS MEMES"],
+    loop: true,
+    typeSpeed: 110,
+    deleteSpeed: 80,
+  });
 
   return (
     <div className="home-container">
@@ -24,7 +30,7 @@ const HomePage = ({ memes }) => {
         </span>
       </div>
       <div className="text">
-        <h1>URANUS MEMES</h1>
+        <h1 style={{ fontSize: "37px" }}>{meme_text}</h1>
       </div>
       <Memes memes={memes} />
     </div>
