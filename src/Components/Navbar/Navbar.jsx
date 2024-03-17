@@ -26,9 +26,6 @@ const Navbar = () => {
             <div className="route">
               <a href="/about">About</a>
             </div>
-            <div className="route">
-              <a href="/memes">Explore Memes</a>
-            </div>
           </div>
         </div>
         <div className="navbar-user">
@@ -55,9 +52,7 @@ const Navbar = () => {
           <div className="route-icon">
             <a href="/about">About</a>
           </div>
-          <div className="route-icon">
-            <a href="/memes">Explore Memes</a>
-          </div>
+
           <div className="route-icon">
             <a href="/signup">Sign Up</a>
           </div>
