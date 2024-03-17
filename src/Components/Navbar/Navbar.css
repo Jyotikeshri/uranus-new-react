@@ -129,6 +129,8 @@ a:active {
   position: relative;
   top: 100px;
   margin-left: auto;
+  position: fixed;
+  left: 70vw;
 
   margin-right: 20px;
   z-index: 100;
