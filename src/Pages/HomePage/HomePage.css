@@ -29,15 +29,3 @@
     top: 220vh;
   }
 }
-
-@media (min-width: 701px) and (max-width: 900px) {
-  .footer {
-    top: 110vh;
-  }
-}
-
-@media (min-width: 910px) and (max-width: 1400px) {
-  .footer {
-    top: 30vh;
-  }
-}
