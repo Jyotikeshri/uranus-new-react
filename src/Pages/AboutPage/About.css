@@ -47,6 +47,22 @@ p {
   letter-spacing: 1px;
 }
 
+.mirror {
+  display: flex;
+  font-size: 1.5rem;
+  flex-direction: column;
+  justify-content: center;
+  width: 30vw;
+  align-items: center;
+  backdrop-filter: blur(4px) saturate(180%);
+  -webkit-backdrop-filter: blur(4px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  padding: 2rem;
+  cursor: pointer;
+}
+
 .image-container {
   position: relative;
   top: 50px;
@@ -72,6 +88,23 @@ p {
     font-size: 1.1rem;
     margin-left: -3rem;
   }
+  .mirror {
+    width: 60vw;
+    margin-left: -1rem;
+  }
+
+  .mirror h2 {
+    font-size: 20px;
+  }
+
+  .mirror h4 {
+    font-size: 17px;
+  }
+
+  .mirror p {
+    text-align: center;
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 701px) and (max-width: 1200px) {
@@ -84,22 +117,6 @@ p {
   .footer {
     top: 20vh;
   }
-}
-
-.mirror {
-  display: flex;
-  font-size: 1.5rem;
-  flex-direction: column;
-  justify-content: center;
-  width: 30vw;
-  align-items: center;
-  backdrop-filter: blur(4px) saturate(180%);
-  -webkit-backdrop-filter: blur(4px) saturate(180%);
-  background-color: rgba(17, 25, 40, 0.75);
-  border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.125);
-  padding: 2rem;
-  cursor: pointer;
 }
 
 .mirror h2 {
