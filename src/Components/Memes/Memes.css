@@ -5,11 +5,5 @@
   height: calc(100vh - 400px);
   position: relative;
   top: 400px;
-  padding-left: 4rem;
-}
-
-@media (max-width: 500px) {
-  .memes_container {
-    padding-left: 1rem;
-  }
+  justify-content: center;
 }

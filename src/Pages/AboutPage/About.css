@@ -35,7 +35,7 @@
   padding: 1rem;
   display: flex;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   position: relative;
   left: 25vw;
   top: 100px;
@@ -57,9 +57,7 @@ p {
   .about-container {
     margin-bottom: 0;
   }
-  .footer {
-    top: 120vh;
-  }
+
   .image-container {
     display: flex;
     justify-content: center;
@@ -69,10 +67,10 @@ p {
   }
   .content {
     align-items: center;
+    width: 70vw;
 
-    margin-right: 2rem;
     font-size: 1.1rem;
-    margin-left: -2rem;
+    margin-left: -3rem;
   }
 }
 
